@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js node sharp.js",
+    "build": "webpack --config webpack.prod.js",
     "serve": "http-server dist",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "lint": "eslint ./src",
-    "e2e": "codeceptjs run --steps"
+    "e2e": "codeceptjs run --steps",
+    "build-image": "node sharp.js",
+    "build-all": "npm run build && npm run build-image"
+
   },
   "keywords": [],
   "author": "Ahmad Fauzi Ariyanto",
