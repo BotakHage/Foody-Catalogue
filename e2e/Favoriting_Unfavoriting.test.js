@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 Feature('Favoriting and Unfavoriting Restaurant');
 
 Before(({ I }) => {

@@ -5,8 +5,8 @@ import './component/nav-bar';
 import './component/foot-bar';
 import App from './views/app';
 import swRegister from './utils/sw-register';
-import 'lazysizes'
-import 'lazysizes/plugins/parent-fit/ls.parent-fit'
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 // eslint-disable-next-line no-unused-vars
 const app = new App({
